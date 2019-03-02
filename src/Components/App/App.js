@@ -1,5 +1,5 @@
 import React from 'react';
-import {Router, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 
 import Layout from '../hoc/Layout/Layout';
 import history from '../history';
@@ -13,7 +13,7 @@ class App extends React.Component{
 
     render(){
         return(
-            <Router history={history}>
+            <HashRouter>
                     <Layout>
                         <Switch>
                             <Route path="/" exact component={ContactList} />
@@ -22,7 +22,7 @@ class App extends React.Component{
                             <Route component={NotFound} />
                         </Switch>
                     </Layout>
-            </Router>
+            </HashRouter>
         )
     }
 }

@@ -47,7 +47,7 @@ class ContactList extends React.Component{
             }
         }
         else{
-            return <div> Nothing found !!</div>
+            return <h5 class="text-light"> No saved contacts found!! Please add new.</h5>
         }
 
     }
