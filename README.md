@@ -1,3 +1,6 @@
+## Live Preview available at the link given below -
+https://mhdfaisal.github.io/PhoneDirectoryApp/#/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
