@@ -1,0 +1,21 @@
+.contactList .contactList-content{
+    max-width:55%;
+    margin:0 auto;
+}
+
+.contactList .list-group-item{
+    background:transparent;
+    color:#f5f5f5;
+    border:none;
+    border-bottom: 1.5px solid #a1a1a1;
+    font-size: 110%;
+   
+}
+
+
+@media only screen and (max-width:768px){
+    .contactList .contactList-content{
+        max-width: 95%;
+    }
+
+}
